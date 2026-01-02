@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HomePagina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white p-0 m-0">
+
+    <div class="bg-gray-800 border-b border-gray-600 p-4 sticky top-0">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">Aaron Hermans 1GDM2</h1>
+            
+            <div class="relative">
+                <button id="menu" class="px-4 py-2 bg-gray-700 rounded text-white md:hidden">Menu</button>
+              
+                <div class="hidden md:block">
+                    <button id="desktopmenu" class="px-4 py-2 bg-gray-700 rounded">Pagina's</button>
+                    <div id="dropdown" class="absolute right-0 mt-1 w-48 bg-gray-800 border rounded opacity-0 invisible">
+                        <a href="Index.html" class="block p-3 hover:bg-gray-700">Home</a>
+                        <a href="Scherm.html" class="block p-3 hover:bg-gray-700">Resultaten</a>
+                        <a href="Week1.html" class="block p-3 hover:bg-gray-700">Week 1</a>
+                        <a href="Week2.html" class="block p-3 hover:bg-gray-700">Week 2</a>
+                        <a href="Week3.html" class="block p-3 hover:bg-gray-700">Week 3</a>
+                        <a href="Week4.html" class="block p-3 hover:bg-gray-700">Week 4</a>
+                        <a href="Week5.html" class="block p-3 hover:bg-gray-700">Week 5</a>
+                        <a href="Week9.html" class="block p-3 hover:bg-gray-700">Week 9</a>
+                        <a href="Week10.html" class="block p-3 hover:bg-gray-700">Week 10</a>
+                        <a href="Week11.html" class="block p-3 hover:bg-gray-700">Week 11</a>
+                        <a href="Week12.html" class="block p-3 hover:bg-gray-700">Week 12</a>
+                        <a href="Week13.html" class="block p-3 hover:bg-gray-700">Week 13</a>
+                    </div>
+                </div>
+                
+                <div id="mobilemenu" class="absolute right-0 mt-1 w-48 bg-gray-800 border rounded opacity-0 invisible md:hidden">
+                   <a href="Index.html" class="block p-3 hover:bg-gray-700">Home</a>
+                    <a href="Scherm.html" class="block p-3 hover:bg-gray-700">Resultaten</a>
+                    <a href="Week1.html" class="block p-3 hover:bg-gray-700">Week 1</a>
+                    <a href="Week2.html" class="block p-3 hover:bg-gray-700">Week 2</a>
+                    <a href="Week3.html" class="block p-3 hover:bg-gray-700">Week 3</a>
+                    <a href="Week4.html" class="block p-3 hover:bg-gray-700">Week 4</a>
+                    <a href="Week5.html" class="block p-3 hover:bg-gray-700">Week 5</a>
+                    <a href="Week9.html" class="block p-3 hover:bg-gray-700">Week 9</a>
+                    <a href="Week10.html" class="block p-3 hover:bg-gray-700">Week 10</a>
+                    <a href="Week11.html" class="block p-3 hover:bg-gray-700">Week 11</a>
+                    <a href="Week12.html" class="block p-3 hover:bg-gray-700">Week 12</a>
+                    <a href="Week13.html" class="block p-3 hover:bg-gray-700">Week 13</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-6 py-12">
+
+        <a href="index.html" class="fixed bottom-8 right-8 z-40 px-4 py-2 bg-gray-800 border rounded hover:bg-gray-700 text-sm shadow-lg">Back Home </a>
+
+        <h1 class="text-6xl font-bold text-white text-center mb-12">Schermen</h1>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Overzichtsscherm</h2>
+            <p class="text-lg mb-4">Het overzichtsscherm is het scherm dat in de grote hal hangt wanneer je het station binnenwandelt. Dit scherm zou van beneden naar boven bewegen en de verdere treinen weergeven. Ik heb deze layout al vrij vroeg gekozen en ben hier ook heel content mee, omdat het duidelijk alle nodige info toont: het perron, de tijd, de status, de eindhalte, het type trein en wat wel en niet mag op de trein.</p>
+            <p class="text-lg mb-4">De tussenhaltes bewegen in mijn Figma-prototype ook van links naar rechts, maar omdat dit een foto is, zie je deze animatie hier niet.</p>
+
+            <img src="public/img/Overzichtsscherm.jpg" alt="Overzichtsscherm" style="width:100%; max-width:800px; height:auto;" class="w-full max-w-4xl mx-auto h-auto block rounded-xl shadow-xl mb-8"> 
+        </div>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Perronscherm</h2>
+            <p class="text-lg mb-4">Op het perronscherm staan de eerste tien volgende treinen van dit perron. Bij deze borden valt de info weg over wat wel en niet mag, dit heb ik bewust gedaan omdat je zulke details toch eerder nakijkt op je gsm of op het overzichtscherm in de hal. Daarom toon ik hier alleen de essentiële informatie. De aankomsttijd laat nu enkel zien hoe laat de trein aankomt en of hij vertraagd is, niet met hoeveel minuten.</p>
+            <p class="text-lg mb-4">Dit design sluit sterk aan bij het andere scherm en zorgt voor een duidelijke visuele overeenkomst tussen de borden.</p>
+            <img src="public/img/Perronscherm.jpg" alt="Perronscherm" style="width:auto; max-width:auto; height: 700px;;" class="w-full max-w-4xl mx-auto h-auto block rounded-xl shadow-xl mb-8"> 
+        </div>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Wagonindelingsscherm</h2>
+            <p class="text-lg mb-4">Bij het wagonindelingsscherm ben ik afgestapt van de groene huiskleur, omdat ik geen duidelijke plek vond om deze hier terug te brengen en het ook niet zo belangrijk aanvoelde. Wanneer ik een trein neem, weet ik vaak niet of ik in een dubbeldekker stap of in een trein vol graffiti, het voelt alsof het station en de treinen zelf sterk van elkaar verschillen. Daarom denk ik niet dat het noodzakelijk is om dit scherm qua kleur te laten overeenkomen. </p>
+            <p class="text-lg mb-4">Voor de rest staat hier alle mogelijke informatie op, aangevuld met een QR-code waarmee je naar de app wordt geleid om dit scherm in een andere taal te bekijken.</p>
+            <img src="public/img/Wagonindelingsschermen.jpg" alt="Wagonindelingsscherm" style="width:100%; max-width:800px; height:auto;" class="w-full max-w-4xl mx-auto h-auto block rounded-xl shadow-xl mb-8"> 
+            
+        </div>
+
+    
+        <h1 class="text-6xl font-bold text-white text-center mb-12">Applicatie</h1>
+
+         <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Inlogschermen</h2>
+            <p class="text-lg mb-4">Het eerste inlogscherm is puur een prototype, omdat typbare velden in Figma zonder AI niet mogelijk zijn. Hier zou je je normaal kunnen inloggen. Daarna kies je je taal en word je doorgestuurd naar het homescreen in de taal die je hebt geselecteerd.</p>
+            <p class="text-lg mb-4">Visueel heb ik ze sterk op elkaar laten lijken, omdat ze samen één geheel vormen voor het inloggen en al een hint geven naar de groene kleur van de applicatie.</p>
+
+            <div class="flex flex-col md:flex-row gap-5 max-w-2xl mx-auto mb-8 w-full">
+            <img src="public/img/Inlog.png" alt="Inlog" class="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-md">
+            <img src="public/img/Taal.png" alt="Taal" class="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-md">        </div>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Home scherm</h2>
+            <p class="text-lg mb-4">Na het inloggen kom je op dit scherm terecht. Hier zie je je abonnementen of tickets voor een specifieke trein, met de nodige informatie, en daarnaast alle andere treinen die vertrekken vanuit je gekozen station. Ik vind tickets en abonnementen iets heel logisch en belangrijk, omdat je deze zo niet elke keer opnieuw op je gsm moet downloaden en ook geen tabblad meer open hoeft te houden om je aankomsttijd te weten. Je kan ook op je ticket klikken om meer informatie over je trein te bekijken. Onderaan kan je klikken op de komende treinen die aankomen in Antwerpen, waarna je wordt doorgestuurd naar een meer informatief scherm van die trein. Of je kunt op ‘Meer...’ klikken voor alle treinen van die dag te kunnen zien.</p>
+            
+            <img src="public/img/Home.png" alt="Home scherm" style="width:auto; max-width:auto; height: 700px;;" class="w-full max-w-4xl mx-auto h-auto block rounded-xl shadow-xl mb-8"> 
+        </div>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Status scherm</h2>
+            <p class="text-lg mb-4">Als je op de knop ‘Meer…’ of op de klok in de Nav-Bar hebt gedrukt, kom je op dit scherm terecht. Hier zie je de treinen die de komende dagen vertrekken of aankomen vanuit je gekozen station, wat in mijn prototype Antwerpen Centraal is. Je kan op elke trein klikken om de wagonindeling te bekijken of om extra informatie over die trein te zien.</p>
+            
+            <img src="public/img/Time.png" alt="Tijd" style="width:auto; max-width:auto; height: 700px;;" class="w-full max-w-4xl mx-auto h-auto block rounded-xl shadow-xl mb-8"> 
+        </div>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Treindetails scherm</h2>
+            <p class="text-lg mb-4">Als je in de navigatiebalk op de trein klikt, kom je terecht op de trein waarvoor je een ticket hebt, of op de eerstvolgende trein. Hier kan je uitgebreide informatie zien over de trein en wat er wel en niet mag per wagon. Wil je dit bekijken voor andere treinen, dan kan je op ‘Meer…’ drukken. Je wordt dan doorgestuurd naar het tijdscherm, waar je een andere trein kan selecteren.</p>
+            <img src="public/img/Train De panne.png" alt="Trijn" style="width:auto; max-width:auto; height: 700px;;" class="w-full max-w-4xl mx-auto h-auto block rounded-xl shadow-xl mb-8"> 
+        </div>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">Prototype</h2>
+            <p class="text-lg mb-4">Hier zie je mijn prototype en alle interacties binnen de app. Ik heb de Nav-Bar eerst als component gemaakt, zodat deze maar één keer gekoppeld hoefde te worden aan de interacties. Dit zorgde wel voor problemen bij het toevoegen van meerdere talen, dus heb ik het later omgezet naar groepen zodra ik zeker was van geen fouten. Hier zie je ook duidelijk dat de taalkeuze je naar een andere flow stuurt, waarin alles in die specifieke taal wordt weergegeven.</p>
+            <p class="text-lg mb-4">Bij het maken van de app had ik last met het claimen van mijn Figma Pro via school, tot dit in 1 van de laatste dagen is gelukt. Maar hierdoor had ik geen tijd voor veel hover-effects, omdat een component in Figma niet twee interacties tegelijk kan hebben met een gratis account. Dus bij het eerst maken van mijn app had ik functionaliteit boven looks gezet wat ook wel logisch is.</p>
+            <img src="public/img/Prototype.png" alt="Prototype" style="width:100%; max-width:800px; height:auto;" class="w-full max-w-4xl mx-auto h-auto block rounded-xl shadow-xl mb-8"> 
+        </div>
+        
+
+    </div>
+
+    <footer class="bg-gray-800 border-t border-gray-600 mt-20 w-full">
+    <div class="max-w-4xl mx-auto px-6 py-8 text-center">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+            <a href="https://github.com/aaronhermans/projectdocs.git" target="_blank" class="px-6 py-2 bg-gray-700 rounded border hover:bg-gray-600">GitHub</a>
+            <a href="public/img/PRTT_Projectdocumentatie_HermansAaron.pdf" download class="px-6 py-2 bg-gray-700 rounded border hover:bg-gray-600">PDF</a>
+        </div>
+        <p class="text-gray-500 text-sm">©2025 Aaron Hermans</p>
+    </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu').onclick = function() {
+            var m = document.getElementById('mobilemenu');
+            m.classList.toggle('opacity-100');
+            m.classList.toggle('invisible');
+        }
+        
+        document.getElementById('desktopmenu').onclick = function(e) {
+            e.stopPropagation();
+            var d = document.getElementById('dropdown');
+            d.classList.toggle('opacity-100');
+            d.classList.toggle('invisible');
+        }
+        
+        document.onclick = function() {
+            document.getElementById('mobilemenu').classList.add('opacity-0','invisible');
+            document.getElementById('dropdown').classList.add('opacity-0','invisible');
+        }
+    </script>
+
+</body>
+</html>
